@@ -46,6 +46,12 @@
         "slug": "mecanica",
         "title": "2.3 Caída libre",
         "anchor": "23"
+      },
+      {
+       "icon": "fa fa-question-circle",
+       "slug": "actividad-1",
+       "title": "Actividad didáctica: rápidos y alegres",
+       "path": "pages/actividad-1.html"
       },   
       {
         "icon": "fa fa-file-text-o",
@@ -58,7 +64,13 @@
         "slug": "mecanica",
         "title": "2.5 Leyes de Newton",
         "anchor": "25"
-      }
+      },
+      {
+        "icon": "fa fa-question-circle",
+        "slug": "actividad-2",
+        "title": "Actividad didáctica: traga palabras",
+        "path": "pages/actividad-2.html"
+       }
     ]  
   },
 
@@ -138,14 +150,20 @@
         "slug": "sonido",
         "title": "6.1 Características del sonido",
         "anchor": "61"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "sonido",
+        "title": "6.2 Características del sonido",
+        "anchor": "62"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "sonido",
+        "title": "6.3 Efecto Doppler",
+        "anchor": "63"
       }
     ]  
-  },
-  {
-    "icon": "fa fa-question-circle",
-    "slug": "actividad-1",
-    "title": "Actividad didáctica",
-    "path": "pages/actividad-1.html"
   }
   
 ]

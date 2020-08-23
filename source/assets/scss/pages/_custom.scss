@@ -60,6 +60,25 @@
         border-top: 1px solid $orange;
     }
 }
+
+.sub-title-line {
+    h2,h3 {
+        overflow: hidden;
+        font-weight: 700;
+    }
+
+    h2:after,h3:after {
+        content:"";
+        display: inline-block;
+        height: 0.5em;
+        vertical-align: bottom;
+        width: 100%;
+        margin-right: -100%;
+        margin-left: 10px;
+        border-top: 1px solid #1EC488;
+    }
+}
+
 .br-sup{
     border-radius: 10px 10px 0px 0px;
 }
