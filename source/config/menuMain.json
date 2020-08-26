@@ -50,7 +50,7 @@
       {
        "icon": "fa fa-question-circle",
        "slug": "actividad-1",
-       "title": "Actividad didáctica: rápidos y alegres",
+       "title": "Actividad didáctica: caída libre",
        "path": "pages/actividad-1.html"
       },   
       {
@@ -68,7 +68,7 @@
       {
         "icon": "fa fa-question-circle",
         "slug": "actividad-2",
-        "title": "Actividad didáctica: traga palabras",
+        "title": "Actividad didáctica: leyes de Newton",
         "path": "pages/actividad-2.html"
        }
     ]  
