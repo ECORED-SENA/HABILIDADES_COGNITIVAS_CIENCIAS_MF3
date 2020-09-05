@@ -154,13 +154,13 @@
       {
         "icon": "fa fa-file-text-o",
         "slug": "sonido",
-        "title": "6.2 Características del sonido",
+        "title": "6.2 Efecto Doppler",
         "anchor": "62"
       },
       {
         "icon": "fa fa-file-text-o",
         "slug": "sonido",
-        "title": "6.3 Efecto Doppler",
+        "title": "6.3 Sistemas resonantes",
         "anchor": "63"
       }
     ]  
