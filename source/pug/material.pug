@@ -36,15 +36,18 @@ html(lang="es")
                             .card-body
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('play', 'Introducción', 'main.html#page/introduccion/')
-                                    +navTemaItem('1', 'Magnitudes físicas', 'main.html#page/magnitudes/')
-                                    +navTemaItem('2', 'Mecánica clásica', 'main.html#page/mecanica/')
-                                    +navTemaItem('question', 'Actividad didáctica: rápidos y alegres', 'main.html#page/actividad-1/') 
-                                    +navTemaItem('question', 'Actividad didáctica: traga palabras', 'main.html#page/actividad-2/')                                          
-                                    +navTemaItem('3', 'Termodinámica', 'main.html#page/termodinamica/')
-                                    +navTemaItem('4', 'Electromagnetismo', 'main.html#page/electromagnetismo/')  
-                                    +navTemaItem('5', 'Óptica', 'main.html#page/optica/')
-                                    +navTemaItem('6', 'Naturaleza del sonido', 'main.html#page/sonido/')                        
+                                    +navTemaItem('play', 'Introducción', '#introduccion')
+                                    +navTemaItem('1', 'Magnitudes físicas', '#tema-1')
+                                    +navTemaItem('2', 'Mecánica clásica', '#tema-2')
+                                    +navTemaItem('question', 'Actividad didáctica: rápidos y alegres', '#evaluacion-1')
+                                    +navTemaItem('question', 'Actividad didáctica: traga palabras', '#evaluacion-2')
+                                    +navTemaItem('3', 'Termodinámica', '#tema-3')
+                                    +navTemaItem('4', 'Electromagnetismo', '#tema-4')
+                                    +navTemaItem('5', 'Óptica', '#tema-5')
+                                    +navTemaItem('6', 'Naturaleza del sonido', '#tema-6')
+                                    +navTemaItem('glosary', 'Glosario', '#glosario')
+                                    +navTemaItem('folder', 'Material complementario', '#anexos')
+                                    +navTemaItem('references', 'Referencias bibliográficas', '#referencias')                       
 
 
 
@@ -54,7 +57,11 @@ html(lang="es")
             #tema-1
                 include pages/1-tema.pug
             #tema-2
-                include pages/2-tema.pug
+                include pages/2-tema.pug                                
+            #evaluacion-1
+                include pages/actividad-1.pug
+            #evaluacion-2
+                include pages/actividad-2.pug     
             #tema-3
                 include pages/3-tema.pug
             #tema-4
@@ -62,11 +69,7 @@ html(lang="es")
             #tema-5
                 include pages/5-tema.pug
             #tema-6
-                include pages/6-tema.pug                                
-            #evaluacion
-                include pages/actividad-1.pug
-            #evaluacion
-                include pages/actividad-2.pug                
+                include pages/6-tema.pug           
             #glosario
                 include pages/glosario.pug
             #anexos
