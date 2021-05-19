@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Entorno Físico </title>
+        <meta meta name="description" content="El entorno físico permite entender aspectos básicos de la mecánica clásica, leyes de Newton, termodinámica, acústica y óptica entre otros. Conviene subrayar que la física es una ciencia natural encargada de estudiar la materia y la energía del universo. En efecto, este estudio desarrolla la búsqueda de principios fundamentales que permiten describir los fenómenos que se puedan observar. Por medio de los principios fundamentales, la física ha tratado de explicar la existencia de los agujeros negros, la producción de impulsos eléctricos en el cuerpo humano, o la producción de energía en las termoeléctricas, entre otras cosas.">
+        <link rel="icon" type="image/svg+xml" href="assets/images/logos/senaLogo.svg">
+        <link rel="stylesheet" href="assets/fonts/feather/feather.css">
+        <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.css">
+        <link href="assets/css/fancybox.css" rel="stylesheet">
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body class="theme-dark page-header-textura" id="page-home">
+        <header class="curso-presentacion page-header" id="CursoPresentacion">
+            <div class="page-textura">
+                <div class="container">
+                    <div class="curso-topbar justify-content-center justify-content-md-between"><a class="curso-topbar__logo"><svg xmlns="http://www.w3.org/2000/svg" width="168.273" height="164.177" viewBox="0 0 168.273 164.177">
+                                <path id="SENA_LOGO" data-name="SENA LOGO" d="M85.349,1a18.09,18.09,0,1,0,18.09,18.09h0A18.1,18.1,0,0,0,85.349,1ZM25.617,42.983a33.722,33.722,0,0,0-9.386,1.024,11.156,11.156,0,0,0-5.12,2.56A5.346,5.346,0,0,0,10.086,52.2c.683,1.707,2.56,2.9,4.608,3.584,4.437,1.536,9.386,1.877,13.994,2.731a5.1,5.1,0,0,1,2.389,1.024,1.369,1.369,0,0,1-.683,2.048,9.146,9.146,0,0,1-5.291.683A8.354,8.354,0,0,1,20.5,61.244a1.962,1.962,0,0,1-.853-2.389H9.233A7.663,7.663,0,0,0,10.6,63.463a7.59,7.59,0,0,0,4.267,2.389A28.541,28.541,0,0,0,23.4,66.876,52.426,52.426,0,0,0,35,66.023a11.043,11.043,0,0,0,5.8-2.9,5.358,5.358,0,0,0-1.365-8.533,21.267,21.267,0,0,0-5.8-2.048c-3.072-.683-5.973-1.024-9.045-1.536a9.114,9.114,0,0,1-3.072-.853,1.226,1.226,0,0,1,0-2.219,9.369,9.369,0,0,1,4.437-.683,10.554,10.554,0,0,1,4.608.853A1.877,1.877,0,0,1,31.59,49.81h9.9a5.669,5.669,0,0,0-1.195-3.584A8.875,8.875,0,0,0,35.515,43.5c-3.584-.341-6.827-.512-9.9-.512Zm21.333.683V67.217H75.792V62.1H57.531V57.489H73.744V52.54H57.531V48.786H75.109v-5.12Zm47.615,0H81.253V67.217H91.322V51.346l13.824,15.872h13.824V43.666H108.9v15.7Zm42.495,0L120.676,67.217h10.581l2.56-4.267H150.2l2.389,4.267h11.776l-15.53-23.551ZM142.35,49.3l5.12,8.533h-10.41ZM.7,74.044l.171,12.8L49,86.673c2.389.512,3.925,2.048,3.413,5.8l-29.7,51.711,9.557,9.045L78.01,74.044Zm91.646,0L137.4,152.89l9.9-8.874L117.433,92.3c-.512-3.584.853-5.291,3.413-5.8l48.127.171V74.044ZM84.837,87.185,42.512,159.546l11.264,5.461,28.159-47.615a4.283,4.283,0,0,1,2.9-1.195,4.681,4.681,0,0,1,3.072,1.195l28.159,47.786,11.605-5.973Z" transform="translate(-0.7 -1)" fill="#FF6B00" />
+                            </svg>
+                        </a><a class="curso-topbar__menubar collapsed btn-menu-responsive d-none" data-toggle="collapse" href="#curso-topbar__nav" aria-expanded="false"><span></span><span></span><span></span></a>
+                        <nav class="curso-topbar__nav collapse show d-none d-md-block" id="curso-topbar__nav">
+                            <ul class="curso-topbar__list">
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#ResultadosAprendizaje"><span class="text-white">Resultados de aprendizaje</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#IndiceTematico"><span class="text-white">Índice temático</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#Creditos"><span class="text-white">Créditos</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="curso-portada">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <h3 class="curso-subtitulo" id="curso-titulo-componente">Habilidades cognitivas en ciencias naturales</h3>
+                                <h1 class="curso-titulo" id="curso-titulo-tema">Entorno Físico</h1>
+                                <div class="brand-line-primary"></div>
+                                <p class="curso-descripcion">El entorno físico permite entender aspectos básicos de la mecánica clásica, leyes de Newton, termodinámica, acústica y óptica entre otros. Conviene subrayar que la física es una ciencia natural encargada de estudiar la materia y la energía del universo. En efecto, este estudio desarrolla la búsqueda de principios fundamentales que permiten describir los fenómenos que se puedan observar.</p>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center">
+                                <div class="d-none d-lg-block"><img class="curso-imagen" src="assets/images/header/header_media.png" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="curso-resultados section bg-base-light" id="ResultadosAprendizaje">
+            <div class="container">
+                <h2> Resultados de <br>aprendizaje</h2>
+                <div class="brand-line-primary"></div>
+                <div class="card resultado-item">
+                    <div class="card-body">
+                        <ul class="bg-color-dark">
+                            <li> <span>Describir el funcionamiento de los procesos teniendo en cuenta los ejes del entorno mecánico, termodinámico, electromagnético y ondulatorio.</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="curso-indice-tematico section" id="IndiceTematico">
+            <div class="container">
+                <h2>Desarrollo de <br>contenidos</h2>
+                <div class="brand-line-primary"></div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-10">
+                        <div class="card wow flipInX" data-wow-delay=".4s">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush list my-n3 nav-temas">
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-play"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#introduccion">Introducción</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#introduccion">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">1</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-1">Magnitudes físicas</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-1">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">2</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-2">Mecánica clásica</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-2">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-question"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#evaluacion-1">Actividad didáctica: rápidos y alegres</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#evaluacion-1">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-question"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#evaluacion-2">Actividad didáctica: traga palabras</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#evaluacion-2">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">3</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-3">Termodinámica</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-3">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">4</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-4">Electromagnetismo</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-4">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">5</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-5">Óptica</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-5">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">6</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-6">Naturaleza del sonido</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-6">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-sort-alpha-asc"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#glosario">Glosario</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#glosario">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-folder-open"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#anexos">Material complementario</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#anexos">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-book"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#referencias">Referencias bibliográficas</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#referencias">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mainContent">
+            <div id="introduccion">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Introducción </h1>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/p6YoMy4n_u0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                                <div class="card-body mt-0">
+                                    <p>En este tercer espacio harás un recorrido a través de la mecánica clásica, las leyes de Newton, la termodinámica, la acústica y la óptica entre otros, para conocer el mundo que nos rodea.</p><br>
+                                    <p>Desde sus orígenes, el hombre se ha preguntado acerca de interacciones, aplicaciones, comportamientos repetidos y otras cosas sobre los objetos que lo rodea. Es entonces, cuando la física se establece como una ciencia natural encargada de estudiar la materia y la energía del universo. </p><br>
+                                    <p>Por medio de los principios fundamentales, la física ha tratado de explicar algunos fenómenos como: la existencia de los agujeros negros, la producción de impulsos eléctricos en el cuerpo humano o la producción de energía en las termoeléctricas, entre otras cosas. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-1">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>1. Magnitudes físicas </h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <p>En primer lugar, la medición permite una descripción de los sistemas físicos, al establecer relaciones cuantitativas con las variables que afectan su comportamiento. Las propiedades como cualidades principales de los cuerpos o fenómenos naturales, y que pueden ser medidas, son llamadas como: “magnitudes físicas”. La longitud, la masa, la velocidad, el tiempo y la temperatura, entre otras. </p>
+                        <p>Las mediciones exactas y confiables necesitan unidades que no se puedan alterar y sean universales. Por esto, en un acuerdo firmado en 1960 se estableció que en la mayoría de los países del mundo utilizarán un sistema de unidades para científicos e ingenieros; este se denomina Sistema Internacional de Unidades (SI).</p>
+                        <div class="header-arrow my-5">
+                            <h3 class="text-center">Unidades básicas sistema internacional </h3>
+                        </div>
+                        <table class="table table-bordered table-striped mt-5">
+                            <thead>
+                                <tr>
+                                    <th class="table1">Concepto</th>
+                                    <th class="table1">Nombre y símbolo</th>
+                                    <th class="table1">Definición </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Longitud</td>
+                                    <td>Metro (M)</td>
+                                    <td>
+                                        <p>El metro (m), es la unidad del SI para la longitud. Este se define al fijar el valor de la velocidad de la luz en el vacío (c), en 299.792.458. </p>
+                                        <p>Se expresa en m·s-1, en donde los segundos están en función de la frecuencia del cesio, 133 (ΔνCs).</p>
+                                        <p>A partir de la relación de c=299.792.458 m·s-1, se obtiene la expresión del metro.</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img1.svg">
+                                        <p>Con esto, podemos concluir que la definición del metro se da por la longitud de la distancia recorrida por la luz durante un intervalo de 1/299.792.458 segundos.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr class="table2">
+                                    <td>Masa</td>
+                                    <td>Kilogramo</td>
+                                    <td>
+                                        <p>El Kilogramo (kg), es la unidad del SI para la masa. Este se define al fijar el valor de la constante Planck (h), en 6,626 070 15 × 10-34, cuando se expresa en la unidad J·s, que es igual a kg·m2·s-1, donde el metro y el segundo están en función de c y ΔνCs. </p>
+                                        <p>De la relación exacta de h = 6,626 070 15 × 10-34 kg·m2·s-1, se obtiene la unidad de kg·m2·s-1, y de esta, la expresión para el kilogramo, que está en función de la constante de Planck</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img2.svg">
+                                        <p> A partir de esto, y con las definiciones del segundo y el metro, se obtiene la definición del kilogramo en función de las constantes h, ΔνCs y c:</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img3.svg">
+                                        <p>Basado en lo anterior, se define la unidad kg, m2 y s-1, unidades de las magnitudes físicas en acción y movimiento angular, junto con las definiciones del segundo y el metro; esto lleva a la definición para la unidad de masa en función de la constante Planck (h).</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>Tiempo </td>
+                                    <td>Segundos</td>
+                                    <td>
+                                        <p>El segundo (s), es la unidad del SI para el tiempo. Este se define al fijar el valor de la frecuencia de la transición hiperfina del estado fundamental no perturbado del átomo de Cesio 133 ΔνCs, en 9.192.631.770, cuando se expresa en Hz=s-1.</p>
+                                        <p>De la relación exacta de ΔνCs=9.192.631.770 s-1, se obtiene la expresión para el segundo, que está en función de ΔνCs. </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img4.svg">
+                                        <p>A partir de lo anterior, el segundo es la duración de 9.192.631,770 periodos de radicación en cuanto a la transición entre dos niveles hiperfinos del estado fundamental no perturbado del átomo del Cesio, 133. </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr class="table2">
+                                    <td>Intensidad de corriente eléctrica </td>
+                                    <td>Amperio (A)</td>
+                                    <td>
+                                        <p>El amperio (A), es la unidad del SI para la intensidad de una corriente eléctrica. Este se define al fijar el valor de la carga elemental (e), 1,602 176 634 × 10-19, cuando se expresa en la unidad C=A·s, donde el segundo se define en función de e y ΔνCs. </p>
+                                        <p>De la relación exacta de e=1,602.176.634×10-19 A·s, se obtiene la definición del amperio en función de las constantes e y ΔνCs.</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img5.svg">
+                                        <p>En esta definición, se concluye que el amperio es la corriente eléctrica en cuanto al flujo de 1/ (1,602.176.634×10-19) =6,241.509.074×1018 cargas elementales por segundo.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>Tempera- tura termodiná-mica</td>
+                                    <td>Kelvin (K)</td>
+                                    <td>
+                                        <p>El Kelvin (K), es la unidad del SI para la temperatura en termodinámica. Este se define al fijar el valor de la constante de Boltzmann (k), 1,380 649 × 10-23, cuando se expresa en J·K-1=kg·m2·s-2·K-1, donde el kilogramo, el metro y el segundo están en función de h, c y ΔνCs.</p>
+                                        <p>De la relación exacta de k = 1,380 649 × 10-23 kg·m2·s-2·K-1, se obtiene la expresión para el Kelvin, que está en función de k, h y ΔνCs.</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img6.svg">
+                                        <p>De acuerdo con lo anterior, se puede concluir que el Kelvin hace referencia a la variación de la temperatura termodinámica que da lugar, a su vez, a un cambio en la energía térmica de kT de 1,380.649×10-23J.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr class="table2">
+                                    <td>Cantidad de sustancia </td>
+                                    <td>Mol (mol)</td>
+                                    <td>
+                                        <p>El mol (mol) es la unidad del SI para la sustancia. Un mol contiene 6,02214076×1023 entidades elementales, el cual es el valor de la constante de Avogadro (NA), cuando se expresa en mol-1 se denomina como número de Avogadro.</p>
+                                        <p>La cantidad de sustancia (n) de un sistema, es una medida del número de entidades elementales especificadas, como un átomo, una molécula, un ion, un electrón, o cualquier otra partícula o grupo especificado de estas.</p>
+                                        <p>De la relación exacta de NA=6.022.140.76×1023mol-1, se obtiene la definición de un mol en función de la constante NA.</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img7.svg">
+                                        <p>Teniendo en cuenta lo anterior, se puede definir el mol como la cantidad de sustancia de un sistema que contiene 6,022.140.76×1023 entidades elementales especificadas.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>Intensidad luminosa </td>
+                                    <td>Candela (CD)</td>
+                                    <td>
+                                        <p>La candela (cd) es la unidad del SI para la intensidad luminosa en una dirección dada. Este se define al fijar el valor de la eficacia luminosa de la radiación monocromática con una frecuencia de 540×1012 Hz, Kcd, en 683, cuando se expresa en lm·W-1=cd·sr·W-1 o cd·sr·kg-1·m-2·s3, donde el kilogramo, el metro y el segundo están en función de h, c y ΔνCs.</p>
+                                        <p>De la relación exacta de Kcd=683cd·sr·kg-1·m-2·s3 se obtiene la definición para la candela:</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img8.svg">
+                                        <p>Con lo anterior, se puede definir la candela como la intensidad luminosa en una dirección dada, por una fuente que emite una radiación monocromática de frecuencia 540×1012 Hz, además, tiene una intensidad radiante en esa dirección, igual a 1/683 W/sr.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="mt-5">Para complementar la información lo invitamos a leer el capítulo 19 y 20: </p>
+                        <section class="my-4"><a class="media-link" href="https://bit.ly/2XD6Tv9" target="_blank"> <img class="media-link-icon" src="assets/images/pages/ilustraciones/libro.svg" alt="">
+                                <div class="media-link-title">
+                                    <p><b>Consulte la biblioteca Digital</b></p>
+                                    <p class="mt-3">Medina, G. H. (2010). Física 1 </p>
+                                </div>
+                            </a></section>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-2">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>2. Mecánica clásica </h1>
+                    </div>
+                    <div id="21"> </div>
+                    <div class="jumbotron bg-white">
+                        <p>En este espacio, se describe el movimiento más simple: el movimiento rectilíneo y se introducen las magnitudes cinemáticas de: posición, velocidad y aceleración. </p>
+                        <div class="sub-line mt-5">
+                            <h2>2.1 Movimiento rectilíneo</h2>
+                        </div>
+                        <p>Es importante diferenciar entre posición del móvil en un instante t y desplazamiento del móvil entre dos instantes: inicial t0 y final t.</p>
+                        <p>La velocidad se calcula basado en la velocidad medida en varios intervalos de tiempo cada vez más pequeños. Esto nos permite recordar el concepto de la derivada de una función.</p>
+                        <p>Por medio del registro de velocidad en función del tiempo, se calcula el desplazamiento del cuerpo entre el tiempo inicial t0 y el final t, lo cual permite recordar el concepto de integral definida. </p>
+                        <p>Finalmente, se estudian dos casos particulares que se describen a continuación:</p>
+                        <div class="header-arrow my-5">
+                            <h3 class="text-center">Movimiento rectilíneo uniforme</h3>
+                        </div><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img9.png">
+                        <div class="header-arrow my-5">
+                            <h3 class="text-center">Movimiento rectilíneo uniformemente acelerado</h3>
+                        </div><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img10.png">
+                        <p>Sus ecuaciones son conocidas, y se utilizan con frecuencia. En la recta se da un origen, en donde habrá un observador que medirá la posición del cuerpo (x) en un tiempo determinado (t). Las posiciones serán positivas (si el cuerpo está a la derecha) o negativas (si el cuerpo está a la izquierda) con respecto al origen.</p>
+                        <div class="sub-title-line mt-5">
+                            <h2>Magnitudes cinemáticas</h2>
+                        </div>
+                        <p>Denominamos movimiento rectilíneo como aquel cuya trayectoria es una línea recta así:</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img11.png">
+                        <p>En la recta, se da un origen, en donde habrá un observador que medirá la posición del cuerpo (x) en un tiempo determinado (t). Las posiciones serán positivas (si el cuerpo está a la derecha) o negativas (si el cuerpo está a la izquierda) con respecto al origen.</p>
+                        <div class="sub-title-line mt-5">
+                            <h2>Posición de cuerpo </h2>
+                        </div>
+                        <p>Denominamos movimiento rectilíneo como aquel cuya trayectoria es una línea recta así:</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img12.png">
+                        <p>Se denomina desplazamiento de posición (x) en un tiempo determinado (t).</p>
+                        <p>La posición (x) del cuerpo está relacionado con el tiempo (t) por medio de la función x=f(t). </p>
+                        <div class="sub-title-line mt-5">
+                            <h2>Velocidad</h2>
+                        </div>
+                        <p>La velocidad media entre los instantes t y t’ está definida por:</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img13.svg">
+                        <p>Para calcular la velocidad en el instante (t), se debe hacer el intervalo de tiempo Δt lo más pequeño posible, cuando Δt tienda a 0. </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img14.svg">
+                        <p>Lo anterior es la derivada de la función x con respecto al tiempo (t). El promedio de la velocidad se calcula en un tiempo Δt limitado. La velocidad instantánea en un intervalo de tiempo dado en Δt →0.</p>
+                        <div class="sub-title-line mt-5">
+                            <h2>Aceleración</h2>
+                        </div>
+                        <p>Se denomina aceleración al cambio o variación de velocidad v en un determinado tiempo t</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img32.png">
+                    </div>
+                    <div id="22"></div>
+                    <div class="jumbotron bg-white">
+                        <div class="sub-line">
+                            <h2>2.2 Casos particulares</h2>
+                        </div>
+                        <p class="mb-0">En el estudio de la física se pueden especificar los movimientos que se describen a continuación: </p>
+                        <div class="sub-title-line mt-5">
+                            <h2>Movimiento rectilíneo uniforme</h2>
+                        </div>
+                        <p>Se denomina movimiento rectilíneo a aquel movimiento que tiene velocidad constante y, por esto, aceleración nula. Se calcula la posición x de un cuerpo en un instante t, así: </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img15.svg">
+                        <p>O gráficamente, teniendo a v en función de t, en consecuencia, v en función de t como se describe a continuación:</p>
+                        <div class="header-arrow my-5">
+                            <h3 class="text-center">Representación de la velocidad en función del tiempo </h3>
+                        </div><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img33.png">
+                        <p>Generalmente, el tiempo inicial (t0) se toma como 0. Con esto, las ecuaciones del movimiento rectilíneo uniforme resultan como: </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img16.svg">
+                        <div class="sub-title-line mt-5">
+                            <h2>Movimiento rectilíneo uniformemente acelerado</h2>
+                        </div>
+                        <p>Denominamos movimiento rectilíneo uniformemente acelerado a aquel que tiene una aceleración constante, por ende, se da un cambio en la velocidad v-v0 entre dos instantes t0 y t, mediante integración.</p>
+                        <p>Se obtiene el desplazamiento x-x0 del cuerpo entre dos instantes t0 y t, teniendo en cuenta que la velocidad está en función del tiempo. Esto se puede realizar gráficamente (área-rectángulo+área-triángulo) o integrado:</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img34.png">
+                        <p>Generalmente, el tiempo inicial (t0) se toma como 0. Las fórmulas del movimiento rectilíneo uniformemente acelerado, serían:</p>
+                        <p>Si se despeja el tiempo t en la segunda ecuación y reemplazando en la tercera, se relaciona la velocidad v con el desplazamiento x-x0.</p><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img17.svg">
+                    </div>
+                    <div id="23"></div>
+                    <div class="jumbotron bg-white">
+                        <div class="sub-line">
+                            <h2>2.3 Caída libre</h2>
+                        </div>
+                        <p>Los cuerpos dentro de la Tierra se mueven con aceleración constante g (gravedad). Para describir un movimiento, se deben tener en cuenta los siguientes pasos: </p>
+                        <div class="row justify-content-center mt-5">
+                            <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/1.png"></div>
+                            <div class="col-12 col-md-2">
+                                <p>Establecer un sistema de referencias (origen y eje del movimiento).</p>
+                            </div>
+                            <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/2.png"></div>
+                            <div class="col-12 col-md-2">
+                                <p>Establecer el valor y el signo del movimiento.</p>
+                            </div>
+                            <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/3.png"></div>
+                            <div class="col-12 col-md-2">
+                                <p>El valor y el signo de la velocidad inicial v0.</p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mt-2">
+                            <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/4.png"></div>
+                            <div class="col-12 col-md-2">
+                                <p>Establecer la posición inicial del cuerpo x0.</p>
+                            </div>
+                            <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/5.png"></div>
+                            <div class="col-12 col-md-2">
+                                <p>Escribir las ecuaciones del movimiento.</p>
+                            </div>
+                            <div class="col-auto"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/6.png"></div>
+                            <div class="col-12 col-md-2">
+                                <p>Teniendo en cuenta los datos dados, despejar las incógnitas. </p>
+                            </div>
+                        </div>
+                        <p class="mt-5">Un cuerpo es lanzado desde una montaña de altura x0 con velocidad v0, determinar las ecuaciones del movimiento, la altura máxima y el tiempo que tarda el cuerpo en alcanzar el origen situado en el suelo.</p>
+                        <div class="header-arrow my-5">
+                            <h3 class="text-center">Representación de caída libre</h3>
+                        </div><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img35.png">
+                        <p>Primero, se establece el origen y la dirección del movimiento (eje X). Luego, los valores y signos de la velocidad inicial y la aceleración, como se muestra en la figura. Obteniendo las siguientes ecuaciones: </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img20.svg">
+                        <p>En el momento en que el cuerpo alcanza la altura máxima, su velocidad es igual a 0. Se puede obtener el tiempo que transcurre desde que se lanza hasta que llega esta posición por medio de la ecuación de la velocidad. El resultado de este se reemplaza en la ecuación de posición, obteniendo así, la altura máxima que alcanza el móvil medida desde el suelo. </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img21.svg">
+                        <p>Por medio de la ecuación de la posición se puede obtener el tiempo transcurrido en llegar al suelo (poniendo x-0), resolviendo así, una ecuación de segundo grado.</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img22.svg">
+                        <div class="sub-title-line mt-5">
+                            <h2>Magnitudes cinemáticas</h2>
+                        </div>
+                        <p>Supongamos, que el movimiento está dentro del plano XY. Se sitúa un origen y unos ejes. Se representa la trayectoria del cuerpo (conjunto de puntos por donde pasa el cuerpo). Las magnitudes que describen un movimiento curvilíneo son: </p>
+                        <div class="header-arrow my-5">
+                            <h3 class="text-center">Vector de posición </h3>
+                        </div><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img28.png">
+                        <p>La posición del cuerpo cambia con el tiempo. En el instante t, el cuerpo se encuentra en el punto P (. ), y en el instante t’ se encuentra</p><img class="img-a mb-5 img-fluid" src="assets/images/pages/ilustraciones/img36.png">
+                        <p>en el punto P’ ( ). Cuando el cuerpo se desplaza en el intervalo de tiempo de Δt=t’-t, la dirección del vector representa la secante que une a los puntos P y P’.</p>
+                        <div class="header-arrow my-5">
+                            <h3 class="text-center">Vector de velocidad</h3>
+                        </div><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img29.png"><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img23.svg">
+                        <p>El vector de velocidad media se define como el cociente entre el vector de desplazamiento () y el tiempo que ha transcurrido en el desplazamiento (Δt). El vector de la velocidad media y el vector del desplazamiento tienen la misma dirección entre los instantes t y t2, y de la secante que une los puntos P y P’. El vector de velocidad media y el de desplazamiento tienen la misma dirección, de aquí se obtiene la secante que une a los puntos P y P’. La dirección de la velocidad corresponde a la trayectoria del punto P en el instante t. </p>
+                        <p>Cuando el cuerpo está en el punto P’ en el instante t’, tiene una velocidad:</p><img class="img-a mt-5 img-fluid" src="assets/images/pages/ilustraciones/img31.svg"><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img24.svg">
+                        <div class="header-arrow my-5">
+                            <h3 class="text-center">Vector de aceleración </h3>
+                        </div><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img30.png">
+                        <p>En este instante, el cuerpo cambió, su velocidad tanto en módulo como en dirección está entendida en: </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img25.svg">
+                        <p>Se denomina aceleración al cociente entre el vector del cambio de velocidad y el intervalo de tiempo en el que se da dicho cambio. Y la aceleración en un instante, definida así: </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img26.svg">
+                        <p>En conclusión, las ecuaciones del movimiento curvilíneo en los ejes XY, son:</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img27.svg">
+                        <p>Las ecuaciones de la primera fila son ecuaciones del movimiento rectilíneo en el eje X, mientras que las ecuaciones de la segunda fila pertenecen al movimiento rectilíneo en el eje Y. Un movimiento curvilíneo es el conjunto de los movimientos rectilíneos en los ejes coordenados.</p>
+                    </div>
+                    <div id="24"></div>
+                    <div class="jumbotron bg-white">
+                        <div class="sub-line">
+                            <h2>2.4 Casos particulares</h2>
+                        </div>
+                        <p class="mb-0">Algunos movimientos tienen procesos particulares, estos serán descritos a continuación:</p>
+                        <div class="sub-title-line mt-5">
+                            <h2>Movimiento circular uniforme</h2>
+                        </div>
+                        <p>Se denomina movimiento circular uniforme a aquel que tiene una velocidad angular ( ) constante, y su aceleración es nula. La posición angular () del móvil en el instante t, es: </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img37.png">
+                        <p>En la representación gráfica de la función t es su área. Generalmente, el tiempo inicial (t0) se toma como 0. Las ecuaciones del movimiento circular uniforme son similares al movimiento rectilíneo uniforme.</p>
+                        <div class="sub-title-line mt-5">
+                            <h2>Movimiento circular uniformemente acelerado</h2>
+                        </div>
+                        <p>Se denomina movimiento circular uniformemente acelerado a aquel que tiene aceleración constante. Se obtiene la velocidad angular (-0) entre los instantes t0 y t gracias a la aceleración angular. A partir de la velocidad angular () se puede obtener el desplazamiento -0 del cuerpo entre los instantes t0 y representado gráficamente (área rectángulo +área triángulo), o integrado: </p>
+                        <div class="header-arrow my-5">
+                            <h3 class="text-center">Representación movimiento circular uniformemente acelerado</h3>
+                        </div><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img38.png">
+                        <p>Generalmente, el tiempo inicial (t0) es 0. Las fórmulas del movimiento curvilíneo uniformemente acelerado son similares a las del movimiento rectilíneo uniformemente acelerado, y se representan así:</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img39.svg"><img class="img-a img-fluid" src="assets/images/pages/ilustraciones/img40.svg"><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img41.svg">
+                        <p>Se puede relacionar la velocidad angular con el desplazamiento del cuerpo despejando el tiempo en la segunda ecuación, y reemplazando en la tercera. </p>
+                        <section class="my-4"><a class="media-link" href="https://bit.ly/2XD6Tv9" target="_blank"> <img class="media-link-icon" src="assets/images/pages/ilustraciones/libro.svg" alt="">
+                                <div class="media-link-title">
+                                    <p><b>Consulte la biblioteca Digital</b></p>
+                                    <p class="mt-3">Medina, G. H. (2010). Física 1 </p>
+                                </div>
+                            </a></section>
+                    </div>
+                    <div id="25"></div>
+                    <div class="jumbotron bg-white">
+                        <div class="sub-line">
+                            <h2>2.5 Leyes de Newton</h2>
+                        </div>
+                        <div class="row justify-content-center align-items-center my-5">
+                            <div class="col-12 col-md-6">
+                                <p><b>Isaac Newton</b> nació en Inglaterra, fue científico y escribió “Los principios matemáticos de la filosofía natural”, cuyo tema principal fueron sus leyes del movimiento. </p>
+                            </div>
+                            <div class="col-12 col-md-6"><img class="img-a mb-5 img-fluid" src="assets/images/pages/ilustraciones/img42.svg"></div>
+                        </div>
+                        <p>El movimiento se define como el desplazamiento que tienen los cuerpos en un espacio, frente a otro cuerpo, y es relativo, ya que depende de la posición del observador. La fuerza es la acción que tiene un cuerpo sobre otro y la masa es la magnitud que mide la cantidad de materia que tiene un cuerpo. </p><img class="img-a mb-5 img-fluid" src="assets/images/pages/ilustraciones/img44.jpg">
+                        <div class="header-arrow my-5">
+                            <h3 class="text-center">Isaac Newton afirmó que todo movimiento está regido por tres leyes</h3>
+                        </div>
+                        <div class="sub-title-line mt-5">
+                            <h2>Primera Ley de Newton </h2>
+                        </div>
+                        <p>Esta ley establece que todo cuerpo permanece en reposo o en movimiento rectilíneo uniforme, solo cuando una fuerza externa no actúe sobre este. En caso de que se presente un cambio de movimiento en el cuerpo, ese presentará resistencia. </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img43.jpg">
+                        <div class="sub-title-line mt-5">
+                            <h2>Segunda Ley de Newton </h2>
+                        </div>
+                        <p>Esta ley establece que todo cuerpo permanece en reposo o en movimiento rectilíneo uniforme, solo cuando una fuerza externa no actúe sobre este. En caso de que se presente un cambio de movimiento en el cuerpo, este presentará resistencia.</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img45.jpg">
+                        <p>Esta ley establece que una fuerza no equilibrada actúe sobre un cuerpo, habrá una aceleración en la misma dirección que la fuerza. La aceleración es directamente proporcional a la fuerza, pero inversamente proporcional a la masa del cuerpo. Si la masa del cuerpo es constante, la fórmula de la segunda ley de Newton es: </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img46.png">
+                        <p>Pero, cuando la masa del cuerpo aumenta, la aceleración disminuye. En estos casos, se debe establecer la cantidad de movimiento (p) que es igual al producto de la masa del cuerpo por su velocidad. Así: p=mv. </p>
+                        <p>En el SI la cantidad de movimiento es medida por kg/s, ya que, la unidad para las la masa es el kilogramo, y para la aceleración es m/s2. Por esto: Fuerza (N) = masa (kg) x aceleración (m/s2). </p>
+                        <div class="sub-title-line mt-5">
+                            <h2>Tercera Ley de Newton </h2>
+                        </div>
+                        <p>Esta ley establece que todo cuerpo permanece en reposo o en movimiento rectilíneo uniforme, solo cuando una fuerza externa no actúe sobre este. En caso de que se presente un cambio de movimiento en el cuerpo, ese presentará resistencia.</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img47.jpg">
+                        <p>Esta ley establece que, al ejercer una fuerza sobre un cuerpo, este responderá con una fuerza de igual magnitud y en dirección opuesta.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="evaluacion-1">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Actividad didáctica: caída libre</h1>
+                    </div>
+                    <div class="row align-items-center justify-content-center my-5">
+                        <div class="col-8 col-md-5 col-xl-4 mb-5">
+                            <figure><img src="assets/images/pages/actividad/img_actividad.svg" alt=""></figure>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <hr class="line-100 bg-orange">
+                            <div class="text-center p-2">
+                                <h2>¡Pon a prueba tu conocimiento! </h2>
+                                <p>La siguiente actividad tiene como propósito validar los conocimientos adquiridos. <strong>Caída libre</strong></p><a class="btn btn-colour-Orange" href="media/actividad-1/index.html" target="_blank">Iniciar </a>
+                            </div>
+                            <hr class="line-100 bg-orange">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="evaluacion-2">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Actividad didáctica: leyes de Newton</h1>
+                    </div>
+                    <div class="row align-items-center justify-content-center my-5">
+                        <div class="col-8 col-md-5 col-xl-4 mb-5">
+                            <figure><img src="assets/images/pages/actividad/img_actividad.svg" alt=""></figure>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <hr class="line-100 bg-orange">
+                            <div class="text-center p-2">
+                                <h2>¡Pon a prueba tu conocimiento! </h2>
+                                <p>La siguiente actividad tiene como propósito validar los conocimientos adquiridos. <strong>Leyes de Newton</strong></p><a class="btn btn-colour-Orange" href="media/actividad-2/index.html" target="_blank">Iniciar </a>
+                            </div>
+                            <hr class="line-100 bg-orange">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-3">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>3. Termodinámica</h1>
+                    </div>
+                    <div id="31"> </div>
+                    <div class="jumbotron bg-white">
+                        <p>Se reconoce como la parte de la física que estudia la acción mecánica del calor y las restantes formas de energía.</p>
+                        <div class="sub-line mt-5">
+                            <h2>3.1 Conceptos básicos</h2>
+                        </div>
+                        <div class="header-arrow my-5">
+                            <h3 class="text-center">Conceptos básicos de Termodinámica</h3>
+                        </div>
+                        <div class="row justify-content-center align-items-stretch mt-5">
+                            <div class="col-12 col-md-3 px-3 py-3 text1 mx-2">
+                                <p class="text-center"><b>Calor</b></p>
+                                <p>En termodinámica, se denomina calor a la transferencia de energía entre dos o más sistemas </p>
+                            </div>
+                            <div class="col-12 col-md-3 px-3 py-3 text2 mx-2">
+                                <p class="text-center"><b>Equilibrio Térmico</b></p>
+                                <p>Es el estado en el que las temperaturas de los cuerpos en contacto se equilibran, cuando inicialmente tenían temperaturas diferentes </p>
+                            </div>
+                            <div class="col-12 col-md-3 px-3 py-3 text3 mx-2">
+                                <p class="text-center"><b>Temperatura</b></p>
+                                <p>Es una magnitud física que indica la cantidad de calor que hay en un sistema </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="32"></div>
+                    <div class="jumbotron bg-white">
+                        <div class="sub-line">
+                            <h2>3.2 Leyes de la termodinámica</h2>
+                        </div>
+                        <div class="sub-title-line mt-5">
+                            <h2>Ley cero </h2>
+                        </div>
+                        <p>Esta ley indica que, si dos cuerpos están en equilibrio térmico con un tercer cuerpo, entonces también están en equilibrio entre sí. Esto establece la temperatura como una propiedad fundamental y medible de la materia.</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img48.jpg">
+                        <div class="sub-title-line mt-5">
+                            <h2>Primera ley</h2>
+                        </div>
+                        <p>Esta ley establece que el aumento total de energía en un sistema equivale al aumento de energía del mismo, además del trabajo ejercido. Esto propone que el calor es una forma de energía, y está relacionado con la conservación de la misma.</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img49.jpg">
+                        <div class="sub-title-line mt-5">
+                            <h2>Segunda ley</h2>
+                        </div>
+                        <p>Esta ley establece que el calor se puede transferir desde un sistema con una temperatura inferior hacia otro sistema con una temperatura mayor, sin más energía.</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img50.jpg">
+                        <div class="sub-title-line mt-5">
+                            <h2>Tercera ley</h2>
+                        </div>
+                        <p>Esta ley establece que la entropía de un cristal puro en absoluto es igual a 0. Esto quiere decir, la entropía generalmente se refiere a una energía residual, y que es capaz de realizar trabajo, y ya que no hay energía térmica en el 0 absoluto, no hay energía residual. La entropía también se puede referir a una medida del desorden de un sistema, y un cristal perfecto es considerado perfectamente ordenado, un aumento de temperatura en este significa movimiento dentro del cristal, lo que causaría el desorden. </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img51.jpg">
+                        <p>En conclusión, la termodinámica es una ciencia que se ha desarrollado durante seis siglos, cuyos principios se aplican a la mayoría de los dispositivos que se han inventado. Para profundizar la información lo invitamos a leer los capítulos 4, 6 y 7:</p>
+                        <section class="my-4"><a class="media-link" href="https://bit.ly/2XD6Tv9" target="_blank"> <img class="media-link-icon" src="assets/images/pages/ilustraciones/libro.svg" alt="">
+                                <div class="media-link-title">
+                                    <p><b>Consulte la biblioteca Digital</b></p>
+                                    <p class="mt-3">Medina, G. H. (2010). Física 1 </p>
+                                </div>
+                            </a></section>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-4">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>4. Electromagnetismo</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <p>El magnetismo es un fenómeno físico que describe la ejecución de fuerzas de atracción o repulsión entre dos o más cuerpos. El único imán natural descubierto es el mineral magnetita, pero todos los cuerpos son influidos generalmente por un campo magnético. En algunos materiales es más fácil detectar propiedades magnéticas, como en el níquel, el hierro o el cobalto.</p>
+                        <div class="header-arrow my-5">
+                            <h3 class="text-center">Conceptos electromagnetismo</h3>
+                        </div>
+                        <div class="sub-title-line">
+                            <h3>Electrostática</h3>
+                        </div>
+                        <p>Se define como una carga eléctrica en estado de reposo. Todo esta conformado por átomos, los cuales son la partícula más pequeña de un material que conserva las propiedades del mismo. Cada átomo está compuesto por un núcleo con carga positiva, alrededor de este núcleo, circulan en órbitas uno o más electrones ( carga negativa )</p>
+                        <p>En estado de reposo, la carga positiva en el núcleo equivale a la suma de las cargas negativas de todos los electrones que giran alrededor, es decir, su carga es neutra, si el átomo gana uno o más electrones tendrá carga negativa (ion), mientras que un átomo que pierde uno o más electrones, tendrá carga positiva. Los átomos que tienen la misma carga, se repelan, pero si presentan diferentes cargas, se atraen. </p>
+                        <div class="sub-title-line">
+                            <h3>Campo Eléctrico</h3>
+                        </div>
+                        <p>Se denomina campo eléctrico a una cantidad vectorial que se encuentra en cualquier punto de universo. </p>
+                        <div class="sub-title-line">
+                            <h3>Potencial Eléctrico</h3>
+                        </div>
+                        <p>Se denomina potencial eléctrico al trabajo ejercido sobre una partícula con carga que se mueve en un campo eléctrico. El potencial eléctrico depende de la posición en la que se encuentra la partícula dentro del campo eléctrico. Utilizaremos el concepto de potencial eléctrico para describir la energía potencial eléctrica.</p>
+                        <p class="mt-5">Para profundizar la información lo invitamos a leer el bloque 1 y 2:</p>
+                        <section class="my-4"><a class="media-link" href="https://bit.ly/2XD6Tv9" target="_blank"> <img class="media-link-icon" src="assets/images/pages/ilustraciones/libro.svg" alt="">
+                                <div class="media-link-title">
+                                    <p><b>Consulte la biblioteca Digital</b></p>
+                                    <p class="mt-3">Pérez, M. H. (2014). Temas selectos de física 2. </p>
+                                </div>
+                            </a></section>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-5">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>5. Óptica</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <p>La óptica es la rama de la física encargada de estudiar la radiación electromagnética (características, manifestaciones y su comportamiento). Está conformada por el estudio de la reflexión, la refracción, las interferencias, la difracción, la formación de imágenes y la interacción de la radiación con la materia. La óptica es la ciencia capaz de controlar la luz, ya que, la física considera como onda electromagnética a la luz.</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img52.jpg">
+                    </div>
+                    <div id="51"></div>
+                    <div class="jumbotron bg-white">
+                        <div class="sub-line">
+                            <h2>5.1 Velocidad e interferencia de la luz</h2>
+                        </div>
+                        <p class="mb-0">Actualmente, el valor de la velocidad de la luz en el vacío se considera como 299.792.458 m/s; cuyo uso se refleja en la medición de grandes distancias, partiendo del tiempo que emplea un pulso de luz o de ondas de radio para llegar a una meta y regresar. </p>
+                    </div>
+                    <div id="52"></div>
+                    <div class="jumbotron bg-white">
+                        <div class="sub-line">
+                            <h2>5.2 Reflexión y refracción </h2>
+                        </div>
+                        <p>A continuación, se describen las incidencias de la luz sobre los objetos: </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img53.jpg">
+                        <div class="sub-title-line mt-5">
+                            <h2>Reflexión de la luz </h2>
+                        </div>
+                        <p>La reflexión se da cuando la luz incide sobre un cuerpo, y este la regresa a una mayor o menor proporción, esto según sus propiedades. Gracias a la reflexión somos capaces de ver lo que nos rodea. Un claro ejemplo de reflexión es el espejo.</p>
+                        <div class="sub-title-line mt-5">
+                            <h2>Refracción de la luz</h2>
+                        </div>
+                        <p>Se define a la refracción luminosa como la variación que experimenta la dirección en la que se propaga la luz cuando atraviesa de forma oblicua la superficie de dos medios transparentes (de distinta naturaleza). Los lentes, los dispositivos fotográficos, el ojo humano, entre otros instrumentos ópticos están basados en este fenómeno. Generalmente, se presenta junto a una reflexión débil, generada en la superficie que limita a los dos cuerpos transparentes.</p>
+                    </div>
+                    <div id="53"></div>
+                    <div class="jumbotron bg-white">
+                        <div class="sub-line">
+                            <h2>5.3 Lentes convergentes y divergentes </h2>
+                        </div>
+                        <p>Los lentes son medios transparentes hechos de vidrio, cristal o plástico, separados por dos superficies, donde por lo menos una de ellas es curva.</p>
+                        <div class="header-arrow my-5">
+                            <h3 class="text-center">Tipos de lentes </h3>
+                        </div><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img54.jpg">
+                        <p>Los lentes son capaces de refractar luz y formar una imagen. La luz incide de forma perpendicular al plano focal (lentes convergentes) o del plano focal (lentes divergentes).</p>
+                        <div class="sub-title-line mt-5">
+                            <h2>Lentes Convergentes</h2>
+                        </div>
+                        <div class="header-arrow my-5">
+                            <h3 class="text-center">Clases de lentes convergentes </h3>
+                        </div><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img55.svg">
+                        <p>Existen principalmente tres tipos de lentes convergentes:</p>
+                        <ul>
+                            <li class="text-green">
+                                <p class="text-black"><b>Biconvexas:</b> tienen dos superficies convexas </p>
+                            </li>
+                            <li class="text-green">
+                                <p class="text-black mt-3"><b>Plano Convexa:</b> tienen una superficie plana y otra convexa</p>
+                            </li>
+                            <li class="text-green">
+                                <p class="text-black mt-3"><b>Cóncavo Convexas (o menisco convergente):</b> Tienen una superficie ligeramente cóncava y otra convexa </p>
+                            </li>
+                        </ul>
+                        <p class="mt-5">Los lentes convergentes se caracterizan por ser más gruesos en el centro que por su borde, y concentran en un punto los rayos de luz que lo atraviesan (F). La separación entre este punto y el lente se denomina como distancia focal (f). </p>
+                        <div class="header-arrow my-5">
+                            <h3 class="text-center">Distancias focales</h3>
+                        </div><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img56.jpg">
+                        <div class="header-arrow my-5">
+                            <h3 class="text-center">Hipermetropía </h3>
+                        </div><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img57.jpg">
+                        <div class="sub-title-line mt-5">
+                            <h2>Lentes divergentes</h2>
+                        </div>
+                        <p>Si el lente tiene mayor grosor en los bordes que en el centro, permite separar los rayos de luz que pasa por este, y se denomina como divergente. </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img58.jpg">
+                        <p>Existen tres tipos de lentes divergentes: </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img59.svg">
+                        <ul>
+                            <li class="text-green">
+                                <p class="text-black"><b>Lentes bicóncavas:</b> tienen ambas superficies cóncavas. </p>
+                            </li>
+                            <li class="text-green">
+                                <p class="text-black mt-3"><b>Lentes planos cóncavas:</b> tienen una superficie plana y otra cóncava.</p>
+                            </li>
+                            <li class="text-green">
+                                <p class="text-black mt-3"><b>Lentes convexo cóncavas (o menisco divergente):</b> tienen una superficie ligeramente convexa y otra cóncava. </p>
+                            </li>
+                        </ul>
+                        <p class="mt-5">Si observamos a través de un lente divergente, este da la sensación que los rayos se originan en el punto F, este punto se denomina foco virtual. La distancia focal es negativa en los lentes divergentes. La miopía (no poder ver bien de lejos) puede causarse por una deformación del ojo, consistente en un alargamiento anteroposterior, esto genera que las imágenes se formen con nitidez antes de llegar a la retina. Los lentes divergentes son empleados para corregir este defecto.</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img60.jpg">
+                    </div>
+                    <div id="54"></div>
+                    <div class="jumbotron bg-white">
+                        <div class="sub-line">
+                            <h2>5.4 Construcción de imágenes</h2>
+                        </div>
+                        <p>Si se toma un lente convergente y se mueve alejándose y acercándose a la imagen de una hoja de papel, se comprobará que, en cierta distancia, se forma una imagen invertida y más pequeña de los objetos que se encuentran alejados del lente. Cuando se es capaz de proyectar la imagen formada, se puede concluir que es una imagen real, y si no se puede proyectar, la imagen se considera virtual.</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img61.jpg">
+                        <p>1- Para objetos alejados, los lentes convergentes forman imágenes reales, invertidas y de menor tamaño que dichos objetos.</p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img62.jpg">
+                        <p>2- Por otro lado, si se observa un objeto cercano por medio del lente, se obtendrá una imagen derecha y de mayor tamaño que el objeto. Para los objetos cercanos se forman imágenes virtuales, derechas y de mayor tamaño.</p>
+                        <p>Si se intenta hacer lo mismo con un lente divergente, se obtendrá una imagen derecha y de menor tamaño que el objeto al mirar a través del medio, en vez de lograr proyectar una imagen en la hoja de papel. </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img63.jpg">
+                        <p>Las imágenes generadas por lentes divergentes suelen ser virtuales, derechas y de menor tamaño que el real de los objetos.</p>
+                        <p>Para profundizar la información lo invitamos a leer Bloque 2- 3.4:</p>
+                        <section class="my-4"><a class="media-link" href="https://bit.ly/2XcGp4I" target="_blank"> <img class="media-link-icon" src="assets/images/pages/ilustraciones/libro.svg" alt="">
+                                <div class="media-link-title">
+                                    <p><b>Consulte la biblioteca Digital</b></p>
+                                    <p class="mt-3">Pérez, M. H. (2014). Temas selectos de física 2. </p>
+                                </div>
+                            </a></section>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-6">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>6. Naturaleza del sonido</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <p>Se denomina vibración a aquellos movimientos rápidos y pequeños. Cuando un cuerpo se mueve, produce una vibración en el aire, a partir de esto, se origina el sonido. El sonido, de igual forma, puede producir movimiento en los cuerpos. El sonido se propaga por cualquier tipo de materia, pero no se puede propagar por el vacío.</p>
+                        <p>La velocidad de la propagación del sonido depende de la materia por la que este se propague, además de su temperatura. En sólidos, donde la distancia entre las partículas es fija, la velocidad permanece constante, en líquidos y en los gases, especialmente, la velocidad aumenta junto a la temperatura, ya que las partículas en los gases se mueven con mayor velocidad.</p>
+                        <p>El sonido puede ser reflejado o absorbido en los objetos dependiendo de su material. Algunos materiales son capaces de realizar mayor absorción al sonido, pero menor reflejo, por esta razón se puede escuchar más débil, otros materiales son capaces de reflejar mejor el sonido, por esta razón se escuchan más fuertes. Cuando la onda sonora se encuentra con un material blando y áspero, aumenta la absorción de la misma. Se denomina reflexión de sonido en el caso de que la onda choque contra un obstáculo y cambie de dirección. Puede generar fenómenos como el eco, la reverberación y la resonancia. </p><img class="img-a my-5 img-fluid" src="assets/images/pages/ilustraciones/img64.jpg">
+                        <p>El eco es fenómeno en el que el sonido generado se repite gracias a la reflexión de sonido en un cuerpo, es decir, el eco es una onda sonora reflejada.</p>
+                    </div>
+                    <div id="61"></div>
+                    <div class="jumbotron bg-white">
+                        <div class="sub-line">
+                            <h2>6.1 Características del sonido</h2>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="media/tema6/index.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                    </div>
+                    <div id="62"></div>
+                    <div class="jumbotron bg-white">
+                        <div class="sub-line">
+                            <h2>6.2 Efecto Doppler</h2>
+                        </div>
+                        <p>Se denomina efecto Doppler a la variación de frecuencia en una onda producida por un cuerpo respecto a un observador en reposo o en movimiento. Este fenómeno es empleado para medir flujos sanguíneos en medicina, movimientos de galaxias en expansión en astronomía y en velocidades en vehículos. De hecho, el efecto Doppler es la base del funcionamiento de los radares de velocidad. </p>
+                    </div>
+                    <div id="63"></div>
+                    <div class="jumbotron bg-white">
+                        <div class="sub-line">
+                            <h2>6.3 Sistemas resonantes </h2>
+                        </div>
+                        <p>Un sistema resonante es aquel sistema al que se le aplica cierta fuerza acompañada de una frecuencia, igual o armónica, basado en su propia frecuencia de oscilación, cuyo fin es mantener la oscilación o aumentar su periodo.</p>
+                        <p>La cuerda de un instrumento vibrará con su propia frecuencia de oscilación, mientras va pasando el tiempo, la oscilación irá disminuyendo, y regresará a un estado de reposo.</p>
+                        <p>Dicha vibración es un movimiento compuesto principalmente de dos puntos máximos opuestos entre sí y un punto central.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="glosario">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Glosario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <p><strong class="mr-2">Aceleración:</strong>magnitud derivada que indica la variación de velocidad por unidad de tiempo. En el Sistema Internacional de medidas, su unidad es “m/s²”</p>
+                        <p><strong class="mr-2">Dilatación:</strong>ayuda mutua entre dos entidades o países para un bien común. </p>
+                        <p> <strong class="mr-2">Distancia:</strong>espacio de longitud que hay entre dos o más cuerpos. Su unidad en el Sistema Internacional son los metros (m).</p>
+                        <p><strong class="mr-2">Electricidad:</strong>conjunto de fenómenos físicos relacionados con el flujo de energía.</p>
+                        <p> <strong class="mr-2">Fuerza:</strong>magnitud vectorial que mide los cambios de movimiento o estructura en uno o más cuerpos. Su unidad en el Sistema Internacional es Newton (N).</p>
+                        <p> <strong class="mr-2">Ley de Hooke:</strong>la ley de elasticidad de Hooke establece que la elongación que presenta un cuerpo es directamente proporcional a la fuerza que se le aplica al mismo.</p>
+                        <p> <strong class="mr-2">Ondas:</strong>propagación de la perturbación en un cuerpo (con o sin materia), dando así un transporte de energía sin transporte de materia. </p>
+                        <p> <strong class="mr-2">Peso:</strong>medida en que la gravedad actúa sobre un cuerpo. Su unidad en el Sistema Internacional es Newton (N).</p>
+                        <p> <strong class="mr-2">Presión:</strong>magnitud física que mide la proyección de una fuerza, en dirección perpendicular, por la superficie. Su unidad es Pascal (PA). </p>
+                        <p> <strong class="mr-2">Trabajo:</strong>desplazamiento de su punto de aplicación en la dirección de la fuerza. </p>
+                        <p> <strong class="mr-2">Velocidad:</strong>magnitud física vectorial que establece la relación entre la distancia recorrida y el tiempo en el que se hace la acción. Su unidad en el Sistema Internacional es m/s. </p>
+                        <p> <strong class="mr-2">Voltaje:</strong>impulso que se les da a las cargas eléctricas para que fluyan en un circuito eléctrico. </p>
+                        <p> <strong class="mr-2">Volumen:</strong>magnitud física que describe el espacio de un cuerpo de forma tridimensional. </p>
+                    </div>
+                </div>
+            </div>
+            <div id="anexos">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Material complementario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <table class="table table-bordered table-striped">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th class="text-center">Nombre del documento o material.</th>
+                                    <th class="text-center">Tipo de material. </th>
+                                    <th class="text-center">Enlace del Recurso.</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Medina, G. (2010). Física 1. </strong></td>
+                                    <td>Capítulos 2. 3 19 y 20 </td>
+                                    <td> <a href="https://bit.ly/2XD6Tv9" target="_blank"><span class="fa fa-external-link mr-3" aria-hidden="true"></span>Ver documento</a></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Pérez, M. H. (2014). Temas selectos de física 2. </strong></td>
+                                    <td>Bloques 1 y 2</td>
+                                    <td> <a href="https://bit.ly/2XcGp4I " target="_blank"><span class="fa fa-external-link mr-3" aria-hidden="true"></span>Ver documento</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="referencias">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Referencias bibliográficas</h1>
+                    </div>
+                    <div class="jumbotron bg-white referencias">
+                        <p>Alonso, M &amp; Finn, E. (1995) Física. Addison-Wesley Iberoamericana.<a class="ml-2" href=" " target="_blank"> </a></p>
+                        <hr>
+                        <p>Pérez, H. (2014). Física general. Grupo Editorial Patria.<a class="ml-2" href=" " target="_blank"> </a></p>
+                        <hr>
+                        <p>Sears, F. (1999). Física Universitaria. Vol. I y II, Pearson.<a class="ml-2" href=" " target="_blank"> </a></p>
+                        <hr>
+                        <p>Tippens, P. (1992). Física 1. México: McGraw-Hill Interamericana S. A.<a class="ml-2" href=" " target="_blank"> </a></p>
+                        <hr>
+                        <p>Tipler, P. (1983), Física. Ed. Reverté S.A.<a class="ml-2" href=" " target="_blank"> </a></p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="Creditos">
+            <div class="container">
+                <h1>Créditos </h1>
+                <div class="brand-line-primary"></div>
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <h3 class="footer-subtitulo mb-4">ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES </h3>
+                        <p class="footer-texto mb-2"><strong>Ingry Dayanna Bonilla Monzón</strong><br /> <span class="text-small">Líder del equipo</span></p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-5">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Contenido Instruccional
+                        </h4>
+                        <p class="footer-texto mb-2"><strong>Gloria Matilde Lee Mejía </strong><br /> <span class="text-small">Responsable del equipo</span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Comercio y Servicios</span><br><span class="text-small">Regional Tolima</span></p>
+                        <p class="footer-texto mb-2"><strong>Rafael Nelftalí Lizcano Reyes</strong><br /> <span class="text-small">Asesor pedagógico<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro industrial del diseño y la manufactura </span><br><span class="text-small">Regional Santander </span></p>
+                        <p class="footer-texto mb-2"><strong>Janeth Beatriz Forero Muñoz</strong><br /><span class="text-small">Profesional de Gestión Educativa<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro para la Industria de la Comunicación Gráfica</span></p>
+                        <p class="footer-texto mb-2"><strong>Silvia Milena Sequeda Cárdenas</strong><br /><span class="text-small">Diseñador instruccional<br /></span></p>
+                        <p class="footer-texto mb-2"><strong>Leidy Carolina Arias Aguirre</strong><br /> <span class="text-small">Evaluador instruccional<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de diseño y metrología</span></p>
+                        <p class="footer-texto mb-2"><strong>Martha Isabel Martínez Vargas</strong><br /> <span class="text-small">Asesor pedagógico<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro industrial del diseño y la manufactura</span><br><span class="text-small">Regional Santander</span></p>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Diseño y desarrollo de recursos educativos digitales
+                        </h4>
+                        <p class="footer-texto"><strong>Francisco José Lizcano Reyes </strong><br /> <span class="text-small">Responsable del equipo<br /></span></p>
+                        <p class="footer-texto"><strong>Leyson Fabian Castaño Perez</strong><br /> <span class="text-small">Integración de recursos y pruebas<br /></span></p>
+                        <p class="footer-texto"> <strong>Adriana Rincón Avendaño</strong><br />
+                            <strong>Carlos Julian Ramirez Benitez</strong><br />
+                            <strong>Nelson Iván Vera Briceño</strong><br />
+                            <strong>Yazmin Rocio Figueroa Pacheco</strong><br />
+                            <strong>Yenny patricia Ulloa Villamizar</strong><br /><span class="text-small">Diseño web & producción audiovisual<br /></span></p>
+                        <p class="footer-texto"><strong>Edward Leonardo Pico Cabra</strong><br />
+                            <strong>Jhon Jairo Urueta Alvarez</strong><br /> <span class="text-small">Desarrollo Front-End<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA </span><br><span class="text-small">Regional Santander </span></p>
+                        <h4 class="footer-subtitulo-2 mt-4">
+                            <div class="fa fa-caret-right mr-2"></div>Gestores de repositorio
+                        </h4>
+                        <p class="footer-texto"> <strong>Edwin Mauricio Lamprea Hernández</strong><br />
+                            <strong>Mauricio Eduardo Campuzano Mendez.</strong><br />
+                            <strong>William Rafael Castillo Ali</strong><br /><span class="text-small">Validación de recursos<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">CENTRO DE COMERCIO Y SERVICIOS</span><br><span class="text-small">Regional Tolima</span></p>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="d-flex flex-column justify-content-center"><img src="assets/images/logos/senaLogo.svg" style="max-width:100px"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <section id="cc">
+            <div class="container">
+                <div class="d-flex flex-column flex-sm-row"><span class="pr-3"><i class="icon cc"></i></span><span>Este material puede ser distribuido, copiado y exhibido por terceros si se muestra en los créditos. No se puede obtener ningún beneficio comercial y las obras derivadas tienen que estar bajo los mismos términos de la licencia que el trabajo original.</span></div>
+            </div>
+        </section><a class="scroll-to-top-btn">
+            <div class="fa fa-angle-up fa-2x"></div>
+        </a>
+        <script src="assets/js/vendor.js"></script>
+        <script src="js/local.js"></script>
+    </body>
+</html>
